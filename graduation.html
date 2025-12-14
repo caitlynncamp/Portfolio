@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caitlynn's Graduation Party Invitiation</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <div class="desktop">
+        <div class="desktopIcon" id="messengerIcon" onclick="document.getElementById('invitePopup').classList.add('visible');">
+            <img src="assets/icons/Messenger.png" class="icon" alt="Messenger Icon"/>
+            <h1 class="outlinedText">Messenger</h1>
+        </div>
+
+        <div class="desktopIcon" id="folderIcon">
+            <img src="assets/icons/hiresclosedfolder.png" class="icon" alt="Folder Icon" />
+            <h1 class="outlinedText">Projects</h1>
+        </div>
+
+        <a href="https://www.figma.com/proto/6zOdScKkVPyEW34c78ELfe/Final-Project?node-id=347-139&p=f&t=qcNJHooIF3gGl2HZ-1&scaling=contain&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=347%3A139&show-proto-sidebar=1s" target="_blank" style="text-decoration: none;">
+            <div class="desktopIcon" id="internetIcon">
+                <img src="assets/icons/blueinternet.png" class="icon" alt="Internet Icon" />
+                <h1 class="outlinedText">Internet</h1>
+            </div>
+        </a>
+    </div>
+
+    <div class="footer" style="display: flex;">
+        <a href="solitare/index.html">
+            <img class="startButton" src="assets/icons/startm7.png" alt="startButton">
+        </a>
+
+        <div class="taskbar">
+            <p1>3:52 pm</p1>
+        </div>
+    </div>
+
+
+    <!-- Welcome -->
+    <div id="welcomeBox" class="profileBox" style="display: block; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <div class="profileBoxTop">
+            <h2 class="filename">Welcome_to_Caitlynns_Corner.exe</h2>
+            <div class="profileBoxClose" id="closeWelcome">x</div>
+        </div>
+
+        <div class="profileBoxContent">
+            <div class="profileInfo">
+                <div class="popUpCrumbs">
+                    <h2 class="crumbText">File</h2>
+                    <h2 class="crumbText">Edit</h2>
+                    <h2 class="crumbText">View</h2>
+                    <h2 class="crumbText">Help</h2>
+                    <h2 class="crumbText">About</h2>
+                </div>
+                
+                <div class="profileDetails">
+
+                    <div>
+                        <div>
+                            <p>Welcome to Caitlynn's Corner!</p>
+                            <p>Your Personal Interactive Experience</p>
+                        </div>
+                        <div class="fileBox">
+                            <p><strong>What is this?</strong></br>
+                            Welcome to my interactive playground! Click and walk around, explore my projects, play games, and experience the last 3 years of my life in a totally unique way.</br>
+                            </br>
+                            <strong>How to Navigate:</strong></br>
+                            • Look around for passwords or other cool collectables.</br>
+                            • Interact with games and projects on the computer and around the room</br>
+                            • Check out my gaming consoles</br>
+                            </br>
+                            This corner is designed to showcase my work as a UX/UI designer and web developer. Have fun exploring!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Projects Popup -->
+    <div id="projectsBox" class="profileBox" style="display: none; position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+        <div class="profileBoxTop">
+            <h2 class="filename">My_Projects_Portfolio.exe</h2>
+            <div class="profileBoxClose" id="closeProjects">x</div>
+        </div>
+
+        <div class="profileBoxContent">
+            <div class="profileInfo">
+                <div class="popUpCrumbs">
+                    <h2 class="crumbText">File</h2>
+                    <h2 class="crumbText">Edit</h2>
+                    <h2 class="crumbText">View</h2>
+                    <h2 class="crumbText">Projects</h2>
+                    <h2 class="crumbText">Portfolio</h2>
+                </div>
+                
+                <div class="profileDetails">
+                    <div class="portfolioIcons">
+                        <a href="https://rive.app/community/files/21732-42228-kimmunicator/" target="_blank" style="text-decoration: none;">
+                            <div class="desktopIcon" id="messengerIcon">
+                                <img src="assets/icons/KPIcon.png" class="popupicon" alt="KP Icon"/>
+                                <h1 class="outlinedText">Kimmunicator</h1>
+                            </div>
+                        </a>
+            
+                        <a href="https://ccamp.dev/secretagent/marqueelandingpage.htm" target="_blank" style="text-decoration: none;">
+                            <div class="desktopIcon" id="compowderIcon">
+                                <img src="assets/icons/compowder.png" class="popupicon" alt="Compowder"/>
+                                <h1 class="outlinedText">Whoop</h1>
+                            </div>
+                        </a>
+
+                        <a href="https://www.figma.com/proto/xSwpy0wsa0gNxPfg79lMtY/Campbells-classwork?page-id=689%3A1388&type=design&node-id=1241-2178&viewport=1194%2C1178%2C0.25&t=v4DxPPX1u0GeXVmI-1&scaling=scale-down&starting-point-node-id=1241%3A2178&show-proto-sidebar=1" target="_blank" style="text-decoration: none;">
+                            <div class="desktopIcon" id="lightsaberIcon">
+                                <img src="assets/icons/lightsaberpixel.png" class="popupicon" alt="lightsaberpixel"/>
+                                <h1 class="outlinedText">Star Wars</h1>
+                            </div>
+                        </a>
+                    </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="extraBox" class="extraBox">
+                
+        <div class="profileBoxTop">
+                <h2 class="filename">My_Wallpaper.jpg</h2>
+                <div class="profileBoxClose" id="closeExtra">x</div>
+        </div>
+            
+        <div class="profileBoxContent">
+                    
+            <div class="profileInfo">
+                <div class="popUpCrumbs">
+                        <h2 class="crumbText">File</h2>
+                        <h2 class="crumbText">Edit</h2>
+                        <h2 class="crumbText">View</h2>
+                        <h2 class="crumbText">Call</h2>
+                        <h2 class="crumbText">Activities</h2>
+                </div>
+                        
+                <div class="profileDetails">
+                    <img src="assets/images/background/wallpaper.png" alt="">
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div id="mediaBox" class="mediaBox">
+        <div class="profileBoxTop">
+            <h2 class="filename">Windows_Media_Player.exe</h2>
+            <div class="profileBoxClose" id="closeMedia">x</div>
+        </div>
+        
+        <div class="profileBoxContent">
+            <div class="popUpCrumbs">
+                <h2 class="crumbText">File</h2>
+                <h2 class="crumbText">View</h2>
+                <h2 class="crumbText">Play</h2>
+                <h2 class="crumbText">Tools</h2>
+            </div>
+            
+            <div class="nowPlaying">
+                <p><strong>Now Playing:</strong> Y2K Party Mix</p>
+            </div>
+            
+            <div class="progressBar">
+                <div class="progressFill"></div>
+            </div>
+            
+            <div class="mediaControls">
+                <button class="mediaButton">⏮</button>
+                <button class="mediaButton">⏪</button>
+                <button class="mediaButton play">▶</button>
+                <button class="mediaButton">⏩</button>
+                <button class="mediaButton">⏭</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <div id="invitePopup" class="popUp">
+        
+        <div class="bottomContent">
+
+            <div id="profileBox" class="profileBox">
+                
+                <div class="profileBoxTop">
+                    <h2 class="filename">Caitlynn_Graduation_Party_Invitation.exe</h2>
+                    <div class="profileBoxClose" id="closeProfile">x</div>
+                </div>
+
+                <div class="profileBoxContent">
+                    
+                    <div class="profileInfo">
+                        <div class="popUpCrumbs">
+                            <h2 class="crumbText">File</h2>
+                            <h2 class="crumbText">Edit</h2>
+                            <h2 class="crumbText">View</h2>
+                            <h2 class="crumbText">Call</h2>
+                            <h2 class="crumbText">Activities</h2>
+                        </div>
+                        
+                        <div class="profileDetails">
+                            <div class="leftColumn">
+                                <div class="profileImageSection">
+                                    <img src="assets/images/pfp.png" alt="Caitlynn" class="profileImage" />
+                                </div>
+
+                                <div class="fileBox">
+                                    <p><strong>Date:</strong> December 14th</p>
+                                    <p><strong>Time:</strong> 4:00 PM - 7:00 PM</p>
+                                    <p><strong>Location:</strong> <a href="https://www.google.com/maps/search/?api=1&query=3180+Atlanta+Rd+SE+Smyrna+GA+30080" target="_blank" style="color: #7a00cc; text-decoration: underline; cursor: pointer;">3180 Atlanta Rd SE, Smyrna, GA 30080</a></p>
+                                    <p class="profileInterests"><strong>Dress Code:</strong> Authentically 2000s</p>
+                                </div>
+
+
+
+                            </div>
+
+                            <div class="rightColumn">
+                                <div >
+                                    <p>Caitlynn Campbell</p>
+                                    <p>I'm Graduating!!!</p>
+                                    <P>Listening to: Unwritten by Na...</P>
+
+                                </div>
+                                <div class="fileBox">
+                                    <p> Get ready to rewind the clock as we throw it all the way back to the 2000s to celebrate Caitlynn graduating from Kennesaw State University! </br>
+                                    </br>
+                                    Dust off your Juicy tracksuits and Ed Hardy tees, grab your flip phones, and come celebrate like it is 2003 </p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        <div class="topBar">
+            <h2 class="filename">Graduation_Party_Invitation_RSVP</h2>
+            <div class="closeicon" id="closePopup">x</div>
+        </div>
+<!--
+            <div class="popUpCrumbs">
+                <h2 class="crumbText">File</h2>
+                <h2 class="crumbText">Edit</h2>
+                <h2 class="crumbText">View</h2>
+                <h2 class="crumbText">Call</h2>
+                <h2 class="crumbText">Activities</h2>
+            </div>
+
+        <div class="questionaire">
+            <p><strong>You're invited to celebrate Caitlynn's graduation!</strong></p>
+            
+            <div style="background-color: #fff; padding: 12px; margin: 12px 0; border: 2px solid #000;">
+                <p style="margin: 4px 0;"><strong>Date:</strong> Saturday, December 14th, 2024</p>
+                <p style="margin: 4px 0;"><strong>Time:</strong> 4:00 PM - 7:00 PM</p>
+                <p style="margin: 4px 0;"><strong>Location:</strong> [Add location here]</p>
+            </div>
+
+           <p style="margin-bottom: 8px;">Please let us know if you can attend:</p>
+
+            <div class="formGroup">
+                <label for="guestName">Your Name:</label>
+                <input type="text" id="guestName" placeholder="Enter your name" />
+            </div>
+
+            <div class="formGroup">
+                <label for="guestNumber">Phone Number:</label>
+                <input type="tel" id="guestNumber" placeholder="Enter your phone number" />
+            </div>
+
+            <div class="formGroup">
+                <label for="guestEmail">Email (optional):</label>
+                <input type="email" id="guestEmail" placeholder="Enter your email" />
+            </div>
+
+            <div class="radioGroup">
+                <p style="font-weight: bold; margin-bottom: 8px;">Will you be attending?</p>
+                    
+                <div class="radioAttending">
+
+                    <div class="radioOption">
+                        <input type="radio" id="attending" name="rsvpOption" value="yes" checked />
+                        <label for="attending">
+                            <span class="radioLabel">Yes, I'll be there!</span>
+                            <span class="radioDesc">Can't wait to celebrate</span>
+                        </label>
+                    </div>
+
+                    <div class="radioOption">
+                        <input type="radio" id="notAttending" name="rsvpOption" value="no" />
+                        <label for="notAttending">
+                            <span class="radioLabel">Sorry, I can't make it</span>
+                            <span class="radioDesc">Will celebrate in spirit</span>
+                        </label>
+                    </div>
+            </div>
+
+        </div>
+
+        
+        
+        
+
+            
+            <div id="successMessage" class="successMessage" style="display: none;">
+                ✓ RSVP submitted successfully!
+            </div>
+
+
+            <button id="submitRsvp" class="button">Submit RSVP</button>
+
+        
+        </div>
+
+    </div>
+    -->
+
+    
+
+
+    <script src="rsvp-final.js"></script>
+
+</body>
+</html>
